@@ -1,0 +1,54 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 40%;
+	background-color: wheat;
+	margin: auto;
+	
+}
+.container h1{
+	margin-top: 30px;
+}
+.list_input{
+	text-align: center;
+}
+.list_input input{
+	width: 400px;
+	height: 40px;
+}
+.add_button{
+	height: 40px;
+	width: 70px;
+}
+.add_section h3{
+	text-align: center;
+	background-color: tomato;
+	margin-top: 30px;
+}
+button{
+	width: 60px;
+	height: 30px;
+}
+ul{
+	border: 1px solid black;
+}
+ul li{
+	list-style: none;
+	font-size: 25px;
+	background-color: #cecece;
+	padding: 10px 20px 10px 20px;	
+}
+ul li:nth-child(even){
+	background-color: white;
+}
+.close,.checked{
+	float: right;
+	width: 15%;
+}
+ul li.checked {
+	background: #888;
+	color: #fff;
+	text-decoration: line-through;
+}
